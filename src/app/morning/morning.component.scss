@@ -1,0 +1,172 @@
+.bluecontainer {
+    z-index: 3;
+    font-weight: 100;
+    font-size: 1em;
+    font-family: 'Heebo', sans-serif;
+    line-height: normal;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: radial-gradient(
+      circle,
+      rgb(249, 249, 109),
+      lightblue
+    );
+    overflow: hidden;
+    left:0;
+    top: 0;
+    text-align: center;
+}
+
+.text {
+  user-select: none;
+  text-align: center;
+  font-weight: 300;
+  font-size: 3em;
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.btn {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(
+        to left top,
+        rgb(249, 249, 109),
+        lightblue
+      );
+    margin: 30px;
+    border-radius: 30%;
+    box-shadow: 0 1px 3px -1px #000;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    position: absolute;
+    left: 0%;
+    top: 80%;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .btn i{
+    font-style: normal;
+    position: relative;
+    top: 30px;
+    font-size: 26px;
+    transition: 0.6s ease-in-out;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    user-select: none;
+    background-color: var(--b);
+    box-shadow: none;
+  }
+  
+  .btn:hover i {
+    transform: scale(1.2);
+    color: white;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: var(--btn-hover);
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+    transform-origin: 50% 50%;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  
+  .btn:hover::before {
+    transform: scale(1.2);
+    box-shadow: inset 0px 10px 46px -18px #000;
+    opacity: 1;
+    animation: sweet 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }
+  
+  @keyframes sweet {
+    0%{
+      left: -110%;
+      top: 90%;
+    }50%{
+      left: 10%;
+      top: -30%;
+    }100%{
+      top: -10%;
+      left: -10%;
+    }
+  }
+  
+.btn2 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: radial-gradient(
+      circle,
+      lightblue,
+      rgb(249, 249, 109)
+    );
+    margin-left: 10px;
+    border-radius: 30%;
+    box-shadow: 0 1px 3px -1px #000;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    transition: 0.4s ease-in-out;
+    font-weight: 200;
+    font-size: 2em;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .btn2 i{
+    font-style: normal;
+    position: relative;
+    top: 30px;
+    font-size: 26px;
+    transition: 0.6s ease-in-out;
+  }
+  
+  .btn2:hover {
+    cursor: pointer;
+    user-select: none;
+    background-color: var(--b);
+    box-shadow: none;
+  }
+  
+  .btn2:hover i {
+    transform: scale(1.2);
+    color: white;
+  }
+  
+  .btn2::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: var(--btn-hover);
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+    transform-origin: 50% 50%;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  
+  .btn2:hover::before {
+    transform: scale(1.2);
+    box-shadow: inset 0px 10px 46px -18px #000;
+    opacity: 1;
+    animation: sweet 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }

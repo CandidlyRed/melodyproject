@@ -1,0 +1,21 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+mat-grid-tile {
+    font-weight: 200;
+    font-size: 2em;
+    font-family: 'Heebo', sans-serif;
+    z-index: 3;
+
+    cursor: pointer;
+    text-align: center;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
