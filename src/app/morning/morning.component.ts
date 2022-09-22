@@ -17,27 +17,27 @@ export class MorningComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    MorningComponent.audio1.src = "../assets/1.mp3";
+    MorningComponent.audio1.src = "../assets/Morning1.mp3";
     MorningComponent.audio1.load();
     MorningComponent.audio1.volume = 0;
     MorningComponent.audio1.loop = true;
-    MorningComponent.audio2.src = "../assets/1.mp3";
+    MorningComponent.audio2.src = "../assets/Morning2.mp3";
     MorningComponent.audio2.load();
     MorningComponent.audio2.volume = 0;
     MorningComponent.audio2.loop = true;
-    MorningComponent.audio3.src = "../assets/1.mp3";
+    MorningComponent.audio3.src = "../assets/Morning3.mp3";
     MorningComponent.audio3.load();
     MorningComponent.audio3.volume = 0;
     MorningComponent.audio3.loop = true;
-    MorningComponent.audio4.src = "../assets/1.mp3";
+    MorningComponent.audio4.src = "../assets/Morning4.mp3";
     MorningComponent.audio4.load();
     MorningComponent.audio4.volume = 0;
     MorningComponent.audio4.loop = true;
-    MorningComponent.audio5.src = "../assets/1.mp3";
+    MorningComponent.audio5.src = "../assets/Morning5.mp3";
     MorningComponent.audio5.load();
     MorningComponent.audio5.volume = 0;
     MorningComponent.audio5.loop = true;
-    MorningComponent.audio6.src = "../assets/1.mp3";
+    MorningComponent.audio6.src = "../assets/Morning6.mp3";
     MorningComponent.audio6.load();
     MorningComponent.audio6.volume = 0;
     MorningComponent.audio6.loop = true;

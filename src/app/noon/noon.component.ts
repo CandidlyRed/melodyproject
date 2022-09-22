@@ -20,39 +20,39 @@ export class NoonComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    NoonComponent.audio1.src = "../assets/1.mp3";
+    NoonComponent.audio1.src = "../assets/Noon1.mp3";
     NoonComponent.audio1.load();
     NoonComponent.audio1.volume = 0;
     NoonComponent.audio1.loop = true;
-    NoonComponent.audio2.src = "../assets/1.mp3";
+    NoonComponent.audio2.src = "../assets/Noon2.mp3";
     NoonComponent.audio2.load();
     NoonComponent.audio2.volume = 0;
     NoonComponent.audio2.loop = true;
-    NoonComponent.audio3.src = "../assets/1.mp3";
+    NoonComponent.audio3.src = "../assets/Noon3.mp3";
     NoonComponent.audio3.load();
     NoonComponent.audio3.volume = 0;
     NoonComponent.audio3.loop = true;
-    NoonComponent.audio4.src = "../assets/1.mp3";
+    NoonComponent.audio4.src = "../assets/Noon4.mp3";
     NoonComponent.audio4.load();
     NoonComponent.audio4.volume = 0;
     NoonComponent.audio4.loop = true;
-    NoonComponent.audio5.src = "../assets/1.mp3";
+    NoonComponent.audio5.src = "../assets/Noon5.mp3";
     NoonComponent.audio5.load();
     NoonComponent.audio5.volume = 0;
     NoonComponent.audio5.loop = true;
-    NoonComponent.audio6.src = "../assets/1.mp3";
+    NoonComponent.audio6.src = "../assets/Noon6.mp3";
     NoonComponent.audio6.load();
     NoonComponent.audio6.volume = 0;
     NoonComponent.audio6.loop = true;
-    NoonComponent.audio7.src = "../assets/1.mp3";
+    NoonComponent.audio7.src = "../assets/Noon7.mp3";
     NoonComponent.audio7.load();
     NoonComponent.audio7.volume = 0;
     NoonComponent.audio7.loop = true;
-    NoonComponent.audio8.src = "../assets/1.mp3";
+    NoonComponent.audio8.src = "../assets/Noon8.mp3";
     NoonComponent.audio8.load();
     NoonComponent.audio8.volume = 0;
     NoonComponent.audio8.loop = true;
-    NoonComponent.audio9.src = "../assets/1.mp3";
+    NoonComponent.audio9.src = "../assets/Noon9.mp3";
     NoonComponent.audio9.load();
     NoonComponent.audio9.volume = 0;
     NoonComponent.audio9.loop = true;

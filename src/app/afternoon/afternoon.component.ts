@@ -20,27 +20,27 @@ export class AfternoonComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    AfternoonComponent.audio1.src = "../assets/1.mp3";
+    AfternoonComponent.audio1.src = "../assets/Afternoon1.mp3";
     AfternoonComponent.audio1.load();
     AfternoonComponent.audio1.volume = 0;
     AfternoonComponent.audio1.loop = true;
-    AfternoonComponent.audio2.src = "../assets/1.mp3";
+    AfternoonComponent.audio2.src = "../assets/Afternoon2.mp3";
     AfternoonComponent.audio2.load();
     AfternoonComponent.audio2.volume = 0;
     AfternoonComponent.audio2.loop = true;
-    AfternoonComponent.audio3.src = "../assets/1.mp3";
+    AfternoonComponent.audio3.src = "../assets/Afternoon3.mp3";
     AfternoonComponent.audio3.load();
     AfternoonComponent.audio3.volume = 0;
     AfternoonComponent.audio3.loop = true;
-    AfternoonComponent.audio4.src = "../assets/1.mp3";
+    AfternoonComponent.audio4.src = "../assets/Afternoon4.mp3";
     AfternoonComponent.audio4.load();
     AfternoonComponent.audio4.volume = 0;
     AfternoonComponent.audio4.loop = true;
-    AfternoonComponent.audio5.src = "../assets/1.mp3";
+    AfternoonComponent.audio5.src = "../assets/Afternoon5.mp3";
     AfternoonComponent.audio5.load();
     AfternoonComponent.audio5.volume = 0;
     AfternoonComponent.audio5.loop = true;
-    AfternoonComponent.audio6.src = "../assets/1.mp3";
+    AfternoonComponent.audio6.src = "../assets/Afternoon6.mp3";
     AfternoonComponent.audio6.load();
     AfternoonComponent.audio6.volume = 0;
     AfternoonComponent.audio6.loop = true;
