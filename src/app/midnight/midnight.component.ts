@@ -17,23 +17,23 @@ export class MidnightComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    MidnightComponent.audio1.src = "../assets/1.mp3";
+    MidnightComponent.audio1.src = "../assets/Midnight1.mp3";
     MidnightComponent.audio1.load();
     MidnightComponent.audio1.volume = 0;
     MidnightComponent.audio1.loop = true;
-    MidnightComponent.audio2.src = "../assets/1.mp3";
+    MidnightComponent.audio2.src = "../assets/Midnight2.mp3";
     MidnightComponent.audio2.load();
     MidnightComponent.audio2.volume = 0;
     MidnightComponent.audio2.loop = true;
-    MidnightComponent.audio3.src = "../assets/1.mp3";
+    MidnightComponent.audio3.src = "../assets/Midnight3.mp3";
     MidnightComponent.audio3.load();
     MidnightComponent.audio3.volume = 0;
     MidnightComponent.audio3.loop = true;
-    MidnightComponent.audio4.src = "../assets/1.mp3";
+    MidnightComponent.audio4.src = "../assets/Midnight4.mp3";
     MidnightComponent.audio4.load();
     MidnightComponent.audio4.volume = 0;
     MidnightComponent.audio4.loop = true;
-    MidnightComponent.audio5.src = "../assets/1.mp3";
+    MidnightComponent.audio5.src = "../assets/Midnight5.mp3";
     MidnightComponent.audio5.load();
     MidnightComponent.audio5.volume = 0;
     MidnightComponent.audio5.loop = true;

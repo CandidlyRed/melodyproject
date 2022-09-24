@@ -44,15 +44,15 @@ export class AfternoonComponent implements OnInit {
     AfternoonComponent.audio6.load();
     AfternoonComponent.audio6.volume = 0;
     AfternoonComponent.audio6.loop = true;
-    AfternoonComponent.audio7.src = "../assets/1.mp3";
+    AfternoonComponent.audio7.src = "../assets/Afternoon7.mp3";
     AfternoonComponent.audio7.load();
     AfternoonComponent.audio7.volume = 0;
     AfternoonComponent.audio7.loop = true;
-    AfternoonComponent.audio8.src = "../assets/1.mp3";
+    AfternoonComponent.audio8.src = "../assets/Afternoon8.mp3";
     AfternoonComponent.audio8.load();
     AfternoonComponent.audio8.volume = 0;
     AfternoonComponent.audio8.loop = true;
-    AfternoonComponent.audio9.src = "../assets/1.mp3";
+    AfternoonComponent.audio9.src = "../assets/Afternoon9.mp3";
     AfternoonComponent.audio9.load();
     AfternoonComponent.audio9.volume = 0;
     AfternoonComponent.audio9.loop = true;
